@@ -268,16 +268,24 @@ p.location i, p.mail i, p.phone i {
 	width: 100%;
 	    background: #37394C;
 	}
-	.logo a h1 {
-	font-weight:400;
-	font-size:2em;
-	margin:0;	
-	}
+	
 	.header-top {
 	padding: 3px 0px 11px 0px;
 	}
 	
 }
+
+@media (min-width: 600px) and (max-width: 1890px) {
+
+  .logo a h1 {
+  font-weight:200;
+  font-size:2em;
+  margin:0; 
+  }
+
+
+}
+
 /*--Slider--*/
 #slider3,
 #slider2,#slider4 {
